@@ -15,6 +15,17 @@ tests/pytest-cache-files-*/
 /instruction.pdf
 /instruction_!.pdf
 
+# Raw/source data (do not commit)
+data/raw/
+data/source/
+data/financials/
+data/interim/
+
+# Keep handoff inputs/outputs tracked
+!data/external/
+!data/processed/
+!data/output/
+
 # Common Python tooling caches/artifacts
 .mypy_cache/
 .ruff_cache/

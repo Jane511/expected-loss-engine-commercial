@@ -1,0 +1,25 @@
+check_name,status,detail
+required_output::expected_loss_by_facility.csv,True,present and non-empty
+required_output::expected_loss_by_borrower.csv,True,present and non-empty
+required_output::expected_loss_by_segment.csv,True,present and non-empty
+required_output::portfolio_expected_loss.csv,True,present and non-empty
+required_output::scenario_weighted_ecl.csv,True,present and non-empty
+non_negative::expected_loss_by_facility.csv::pd,True,all values non-negative
+non_negative::expected_loss_by_facility.csv::lgd,True,all values non-negative
+non_negative::expected_loss_by_facility.csv::ead,True,all values non-negative
+non_negative::expected_loss_by_facility.csv::expected_loss_12m,True,all values non-negative
+non_negative::expected_loss_by_facility.csv::lifetime_pd,True,all values non-negative
+non_negative::expected_loss_by_facility.csv::expected_loss_lifetime,True,all values non-negative
+non_negative::expected_loss_by_borrower.csv::total_ead,True,all values non-negative
+non_negative::expected_loss_by_borrower.csv::expected_loss_12m,True,all values non-negative
+non_negative::expected_loss_by_borrower.csv::expected_loss_lifetime,True,all values non-negative
+non_negative::expected_loss_by_segment.csv::total_ead,True,all values non-negative
+non_negative::expected_loss_by_segment.csv::expected_loss_12m,True,all values non-negative
+non_negative::expected_loss_by_segment.csv::expected_loss_lifetime,True,all values non-negative
+non_negative::portfolio_expected_loss.csv::total_ead,True,all values non-negative
+non_negative::portfolio_expected_loss.csv::expected_loss_12m,True,all values non-negative
+non_negative::portfolio_expected_loss.csv::expected_loss_lifetime,True,all values non-negative
+non_negative::scenario_weighted_ecl.csv::pd_multiplier,True,all values non-negative
+non_negative::scenario_weighted_ecl.csv::lgd_multiplier,True,all values non-negative
+non_negative::scenario_weighted_ecl.csv::scenario_expected_loss,True,all values non-negative
+non_negative::scenario_weighted_ecl.csv::weighted_expected_loss,True,all values non-negative
