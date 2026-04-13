@@ -1,10 +1,10 @@
 from pathlib import Path
 
-from src.codex_run_pipeline import run_pipeline
+from src.pipeline import run_pipeline
 
 
-def test_codex_instruction_pipeline_outputs():
-    root = Path("tests") / "_artifacts_codex"
+def test_demo_pipeline_outputs():
+    root = Path("tests") / "_artifacts_demo"
     result = run_pipeline(
         input_dir=root / "data" / "input",
         processed_dir=root / "data" / "processed",

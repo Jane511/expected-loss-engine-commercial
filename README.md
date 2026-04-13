@@ -112,10 +112,10 @@ python -m pytest
 python -m src.pipeline
 ```
 
-Compatibility alias:
+Alternative:
 
 ```powershell
-python -m src.codex_run_pipeline
+python -m src.run_pipeline
 ```
 
 ## Testing and validation

@@ -25,5 +25,5 @@ Optional supporting reference inputs:
 ## Rebuilt deliverables
 
 - Standard repo structure with `data`, `docs`, `notebooks`, `src`, `scripts`, `outputs`, and `tests`.
-- End-to-end Codex demo pipeline: `python -m src.codex_run_pipeline`.
+- End-to-end demo pipeline: `python -m src.run_pipeline`.
 - Required output contract files in `outputs/tables`.
